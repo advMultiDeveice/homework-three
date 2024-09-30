@@ -1,0 +1,207 @@
+.shopping-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    .back{
+        background-color: black;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 20px;
+        background-image: url(../assests/back.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        a{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+    .indoor-image {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-image: url('../assests/indoor.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 20px;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+    }
+
+    .r1 {
+        display: flex;
+        justify-content: space-evenly; 
+        width: 100%;
+        margin-bottom: 20px;
+        // background-color: blue;
+        
+        .indoor1 {
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/bball.avif);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .indoor2 {
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/table.avif);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .indoor3{
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/plant.webp);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+
+        
+    }
+
+    .r2{
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+        margin-bottom: 20px;
+        // background-color: blue;
+        .indoor4{
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/put.webp);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .indoor5{
+            background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/nightstand.jpg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .indoor6{
+            background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/book.jpg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+    }
+
+    .text{ 
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+    }
+}

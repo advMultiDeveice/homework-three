@@ -13,15 +13,673 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 nav {
-  height: 50px;
+  height: 75px;
   width: 100%;
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+nav .nav-holder {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+nav .nav-holder .logo {
+  background-image: url("../assests/shopping.jpg");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav .nav-holder .logo a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+nav .nav-holder .contact {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  margin-right: 60px;
+  background-image: url(../assests/phone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav .nav-holder .contact a {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-nav a {
-  text-decoration: none;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 100%;
+  background-color: black;
+}
+.home .home-image {
+  display: flex;
+  height: 600px;
+  background-color: green;
+  background-image: url(../assests/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .home-image .home-head {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
   color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.home .home-image .home-sub {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+.home .shop-sec {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .shop-sec .indoor {
+  height: 100%;
+  width: 33.3%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(../assests/indoor-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .shop-sec .indoor .shop a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home .shop-sec .outdoor {
+  height: 100%;
+  width: 33.3%;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(../assests/outdoor-home.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .shop-sec .outdoor .shop a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home .shop-sec .living {
+  height: 100%;
+  width: 33.3%;
+  background-color: gold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(../assests/living-home.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .shop-sec .shop a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.shopping-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  position: relative;
+}
+.shopping-holder .back {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+  background-image: url(../assests/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.shopping-holder .back a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.shopping-holder .indoor-image {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-image: url("../assests/indoor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+}
+.shopping-holder .r1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.shopping-holder .r1 .indoor1 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/bball.avif);
+}
+.shopping-holder .r1 .indoor1 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r1 .indoor2 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/table.avif);
+}
+.shopping-holder .r1 .indoor2 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r1 .indoor3 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/plant.webp);
+}
+.shopping-holder .r1 .indoor3 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.shopping-holder .r2 .indoor4 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/put.webp);
+}
+.shopping-holder .r2 .indoor4 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r2 .indoor5 {
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/nightstand.jpg);
+}
+.shopping-holder .r2 .indoor5 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r2 .indoor6 {
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/book.jpg);
+}
+.shopping-holder .r2 .indoor6 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+}
+
+.shopping-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  position: relative;
+}
+.shopping-holder .back {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+  background-image: url(../assests/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.shopping-holder .back a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.shopping-holder .outdoor-image {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-image: url("../assests/outdoor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+}
+.shopping-holder .r1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.shopping-holder .r1 .outdoor1 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/hoop.jpg);
+}
+.shopping-holder .r1 .outdoor1 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r1 .outdoor2 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/pool.jpg);
+}
+.shopping-holder .r1 .outdoor2 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r1 .outdoor3 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/lawnmower.jpeg);
+}
+.shopping-holder .r1 .outdoor3 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.shopping-holder .r2 .outdoor4 {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/weeds.jpg);
+}
+.shopping-holder .r2 .outdoor4 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r2 .outdoor5 {
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/patio.jpg);
+}
+.shopping-holder .r2 .outdoor5 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .r2 .outdoor6 {
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/grill.avif);
+}
+.shopping-holder .r2 .outdoor6 .buy {
+  font-size: 40px;
+  color: white;
+}
+.shopping-holder .text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+}
+
+.shopping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  position: relative;
+}
+.shopping .back {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+  background-image: url(../assests/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.shopping .back a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.shopping .living-image {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-image: url("../assests/living.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+}
+.shopping .living-holder {
+  display: flex;
+}
+.shopping .living-holder .living1-holder .living1-pic {
+  height: 400px;
+  height: 400px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/bed.jpg);
+}
+.shopping .living-holder .living1-holder .living1-text {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.shopping .living-holder .living2-holder .living2-pic {
+  height: 400px;
+  height: 400px;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assests/bath.jpg);
+}
+.shopping .living-holder .living2-holder .living2-text {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.shopping .text {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.shopping .text div {
+  margin: 20px;
+}
+
+.contact {
+  height: 900px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 10px;
+}
+.contact .contact-header h1 {
+  padding-top: 0;
+  font-size: 50px;
+  color: white;
+  text-decoration: line-through;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.contact .contact-holder {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contact .contact-holder .holder {
+  height: 100%;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-holder .holder .nInput {
+  width: 100%;
+}
+.contact .contact-holder .holder .nInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.contact .contact-holder .holder .nInput ::placeholder {
+  padding: 20px;
+  color: black;
+}
+.contact .contact-holder .holder .eInput {
+  padding-top: 30px;
+  width: 100%;
+}
+.contact .contact-holder .holder .eInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.contact .contact-holder .holder .eInput ::placeholder {
+  padding: 20px;
+  color: black;
+}
+.contact .contact-holder .holder .mInput {
+  padding-top: 30px;
+  position: relative;
+  width: 100%;
+}
+.contact .contact-holder .holder .mInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.contact .contact-holder .holder .mInput ::placeholder {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  color: black;
+}
+.contact .contact-holder .holder .send {
+  margin-top: 30px;
+  width: 167px;
+  height: 60px;
+  padding-top: 12px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.contact .contact-holder .holder .send a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }

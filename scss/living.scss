@@ -1,0 +1,95 @@
+.shopping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    .back{
+        background-color: black;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 20px;
+        background-image: url(../assests/back.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        a{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+    .living-image {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-image: url('../assests/living.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 20px;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+    }
+
+    .living-holder{
+        display: flex;
+        .living1-holder{
+            .living1-pic{
+                height: 400px;
+                height: 400px;
+                background-color: white;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(../assests/bed.jpg);
+            }
+            .living1-text{
+                color: white;
+                padding: 20px;
+                text-align: center;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            
+        }
+        .living2-holder{
+            .living2-pic{
+                height: 400px;
+                height: 400px;
+                background-color: red;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(../assests/bath.jpg);
+            }
+            .living2-text{
+                color: white;
+                padding: 20px;
+                text-align: center;
+                font-size: 15px;
+                font-weight: bold;
+
+            }
+            
+        }
+        
+    }
+
+    .text{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        div{
+            margin: 20px;
+        }
+    }
+}

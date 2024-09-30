@@ -1,0 +1,207 @@
+.shopping-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    .back{
+        background-color: black;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 20px;
+        background-image: url(../assests/back.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        a{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+    .outdoor-image {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-image: url('../assests/outdoor.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 20px;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+    }
+
+    .r1 {
+        display: flex;
+        justify-content: space-evenly; 
+        width: 100%;
+        margin-bottom: 20px;
+        // background-color: blue;
+        
+        .outdoor1 {
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/hoop.jpg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .outdoor2 {
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/pool.jpg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .outdoor3{
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/lawnmower.jpeg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+
+        
+    }
+
+    .r2{
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+        margin-bottom: 20px;
+        // background-color: blue;
+        .outdoor4{
+            // background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/weeds.jpg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .outdoor5{
+            background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/patio.jpg);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+        .outdoor6{
+            background-color: blue;
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assests/grill.avif);
+
+            .buy{
+                
+                // background-color: black;
+                font-size: 40px;
+                color: white;
+
+            }
+            
+        }
+    }
+
+    .text{ 
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+    }
+}
